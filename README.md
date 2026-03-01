@@ -4,9 +4,9 @@
 This is a web-based application developed for the SE1020 Object-Oriented Programming module. It allows users to manage and interact with a food delivery network, applying core OOP concepts and utilizing file handling for data storage.
 
 ## 🛠️ Tech Stack
-* [cite_start]**Backend:** Java, JSP Servlets [cite: 137]
-* [cite_start]**Frontend:** HTML, CSS (Bootstrap 5) [cite: 111]
-* [cite_start]**Data Storage:** File Read/Write operations (.txt files) [cite: 112, 138]
+* **Backend:** Java, JSP Servlets
+* **Frontend:** HTML, CSS (Bootstrap 5)
+* **Data Storage:** File Read/Write operations (.txt files)
 * **Server:** Apache Tomcat 10+
 * **Build Tool:** Maven
 
@@ -26,3 +26,14 @@ Our team consists of 6 members, each handling a specific component of the system
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/IT25102298/OPP-Project.git](https://github.com/IT25102298/OPP-Project.git)
+2. Open the project in IntelliJ IDEA Ultimate.
+
+3. Configure Tomcat: Add a local Apache Tomcat Server in your Run Configurations.
+
+4. Deploy the Artifact: Ensure the war exploded artifact is deployed.
+
+5. Run the server and navigate to http://localhost:8080/[Your_Context_Path]/login.jsp.
+
+## 📂 Data Storage Note
+
+All data is stored locally in .txt files. The system automatically generates a FoodDeliveryData folder in the user's home directory (e.g., C:\Users\Name\FoodDeliveryData) to prevent data loss during server restarts.
